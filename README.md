@@ -15,7 +15,7 @@ Platform: **win32-x64** (Pylance is universal). The Python extension is an exten
 
 ## Get the .vsix files
 
-`.vsix` are binary and exceed GitHub's per-file / push limits, so in this repo they are stored base64-encoded and split into 6 MB chunks under `parts/`. To rebuild the originals (verified against `SHA256SUMS.txt`):
+`.vsix` are binary and exceed GitHub's per-file / push limits, so in this repo they are stored base64-encoded and split into 2 MB chunks under `parts/`. To rebuild the originals (verified against `SHA256SUMS.txt`):
 
 ```bat
 python join_vsix.py
